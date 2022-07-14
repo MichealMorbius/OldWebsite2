@@ -1,0 +1,159 @@
+.console{
+    color:white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 600px;
+    height: 350px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    border: 0px;
+    outline: none;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+
+}
+
+.console .line .path{
+    font-family: "VT323";
+    font-size: 20px;
+    color: lightblue;
+    text-shadow: 0px 0px 5px lightgray;
+}
+#root{
+    color:lightcoral
+}
+#dollar{
+    color: lightgreen;
+}
+.console .line .command{
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    font-family: "VT323";
+    font-size:20px
+}
+.console .line .profile{
+    display: none;
+}
+.console .line .profile .image{
+    position: relative;
+    height: 175px;
+    width: 175px;
+    image-rendering: pixelated;
+    opacity: 0.2;
+}
+
+.console .line .profile .details{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-0%, -50%);
+
+}
+.console .line .profile .details .details_root{
+    color: red;
+    font-family: "VT323";
+    font-size: 20px;
+    text-rendering:optimizeLegibility;
+    text-align: center;
+}
+#colors{
+    display: inline-flex;
+
+}
+#colors .blue{
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    float: right;
+}
+#colors .yellow{
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+
+}
+#colors .red{
+    width: 15px;
+    height: 15px;
+    background-color: indianred;
+}
+#colors .orange{
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+}
+#colors .aqua{
+    width: 15px;
+    height: 15px;
+    background-color: aqua;
+}
+
+#colors .violet{
+    width: 15px;
+    height: 15px;
+    background-color: violet;
+}
+
+#colors .purple{
+    width: 15px;
+    height: 15px;
+    background-color: purple;
+}
+
+#colors .indigo{
+    width: 15px;
+    height: 15px;
+    background-color: indigo;
+}
+
+#color .black{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+}
+#details_host{
+    color: orangered;
+    text-shadow: 0px 0px 5px orangered,
+                 0px 0px 1px orange;
+}
+.details{
+    font-family: "VT323";
+    font-size: 20px;
+}
+
+#error{
+    font-family: "VT323";
+    font-size: 20px;
+    color: red;
+    display: none;
+}
+#help_cmd{
+    font-family: "VT323";
+    font-size: 20px;
+    display: none;
+}
+#sourcelink{
+    font-family: "VT323";
+    font-size: 20px;
+}
+
+#tip{
+    text-align: center;
+    font-family: "VT323";
+}
+#h1help{
+    color: green;
+    text-shadow: 0px 0px 5px green;
+}
+body{
+    background-image: url("./Assets/mjave-l.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
